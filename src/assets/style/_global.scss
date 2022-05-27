@@ -15,45 +15,9 @@ ul{
 a{
   color: #5b2ca2;
   text-decoration: none;
-  margin: 0px 10px;
-}
-
-/* Button */
-button{
-  padding: 6px 10px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-}
-
-button span{
-  font-size: .75rem;
-  padding: 2px 10px;
-}
-
-.btn-1{
-  background-color: white;
-  color: #5b2ca2;
-  cursor: pointer;
-  
-  &:hover{
-    background-color: #5b2ca2;
-    color: white;
-  }
-}
-
-.btn-2{
-  background-color: #5b2ca2;
-  color: white;
-  cursor: pointer;
-  
-  &:hover{
-    background-color: white;
-    color: #5b2ca2;
-  }
 }
 
 /* Icons */
 i{
-  color: #5b2ca2;
   font-size: .8rem;
 }

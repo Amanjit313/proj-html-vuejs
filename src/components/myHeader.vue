@@ -10,7 +10,7 @@
             <a :class="{active : options.isActive}" :href="options.href">{{options.select}}</a>
           </li>
         </ul>
-        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-cart-shopping main-color"></i>
       </div>
     </div>
     <!-- /Header Logo & Menu -->
@@ -111,12 +111,13 @@ img{
 a{
   font-size: .7rem;
   text-transform: uppercase;
-  margin-right: 20px;
+  margin-right: 30px;
   padding: 5px 0px;
 }
 
 i{
-  margin: 0px 20px;
+  margin: 0px 10px;
+  cursor: pointer;
 }
 
 .active{
