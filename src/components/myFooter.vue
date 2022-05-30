@@ -110,7 +110,7 @@ export default {
 
 /* Footer Logo & Menu */
 .footer-logo-menu{
-  margin-left: 60px;
+  margin-left: 155px;
   margin-top: 50px;
 }
 
@@ -145,7 +145,7 @@ a{
 
 /* Subscribe */
 .subscribe{
-  margin-right: 60px;
+  margin-right: 155px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -170,7 +170,7 @@ h4{
 .copyright-social{
   display: flex;
   justify-content: space-between;
-  margin: 100px 60px 0px 60px;
+  margin: 100px 155px 0px 155px;
 }
 
 .copyright{
@@ -187,7 +187,7 @@ h4{
 /* Chevron */
 .chevron{
   color: white;
-  margin-right: 50px;
+  margin-right: 135px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

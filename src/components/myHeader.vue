@@ -16,10 +16,10 @@
     <!-- /Header Logo & Menu -->
 
     <!-- Header Content -->
-    <div class="w-90 center header-content">
-      <div class="w-25">
+    <div class="w-80 header-content center"> 
+      <div class="w-400">
         <p class="title">Fresh & tasty bakery every day</p>
-        <h1 class="main-title">The Perfect Fresh Bread</h1>
+        <h1 class="main-title-big">The Perfect Fresh Bread</h1>
         <p class="description">Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. Aliquam erat volutpat. Nullam quis saggittis nibh ac nulla id orci tempor.</p>
         <button class="btn-1"><span>Explore our products</span></button>
       </div>
@@ -85,22 +85,23 @@ export default {
 <style lang="scss" scoped>
 
 header{
-  height: 80vh;
+  height: 90vh;
   background-image: url('../assets/img/hero-header-bakery.jpg');
   background-size: cover;
+  margin-bottom: 10vh;
 }
 
 /* Header Logo & Menu */
 img{
-  width: 11rem;
-  padding: 0px 0px 0px 20px;
+  width: 12rem;
+  margin: 0px 0px 0px 55px;
 }
 
 .header-logo-menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px 0px 0px;
+  margin: 0px 55px 0px 0px;
 }
 
 .menu{
@@ -132,17 +133,8 @@ i{
   align-items: center;
 }
 
-p{
-  color: #929295;
+.main-title-big{
   margin: 20px 0px;
-}
-
-.title{
-  text-transform: uppercase;
-  font-size: .65rem;
-}
-
-.main-title{
   color: #5b2ca2;
   font-size: 3rem;
 }

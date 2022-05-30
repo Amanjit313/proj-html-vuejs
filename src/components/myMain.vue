@@ -1,10 +1,19 @@
 <template>
-  <main>MAIN</main>
+  <main>
+
+    <myMainProducts />
+
+  </main>
 </template>
 
 <script>
+import myMainProducts from './myMainProducts.vue';
+
 export default {
-  name: "myMain"
+  name: "myMain",
+  components: {
+    myMainProducts
+  }
 }
 </script>
 

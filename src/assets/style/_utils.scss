@@ -4,12 +4,20 @@
 }
 
 /* Widht */
-.w-90{
-  width: 90%;
+.w-80{
+  width: 80%;
 }
 
 .w-25{
   width: 25%;
+}
+
+.w-400{
+  width: 400px;
+}
+
+.w-350{
+  width: 350px;
 }
 
 /* Button */
@@ -49,4 +57,40 @@ button span{
 /* Colors */
 .main-color{
   color: #5b2ca2;
+}
+
+/* Costum Title DIV */
+.title{
+  color: #929295;
+  text-transform: uppercase;
+  font-size: .65rem;
+}
+
+.title-white{
+  text-transform: uppercase;
+  font-size: .65rem;
+  color: white;
+}
+
+.main-title-big{
+  margin: 20px 0px;
+  color: #5b2ca2;
+  font-size: 3rem;
+}
+
+.main-title-small{
+  margin: 20px 0px;
+  color: #5b2ca2;
+  font-size: 2rem;
+}
+
+.main-title-small-white{
+  margin: 20px 0px;
+  color: white;
+  font-size: 2rem;
+}
+
+.description{
+  margin-bottom: 30px;
+  color: #929295;
 }
