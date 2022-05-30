@@ -87,6 +87,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.procedure{
+  margin-bottom: 100px;
+}
+
 .number{
   margin: 20px 0px;
   color: white;
