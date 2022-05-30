@@ -4,6 +4,7 @@
     <myMainProducts />
     <myMainProcedure />
     <myMainLocationsSharing />
+    <myMainOrderShop />
 
   </main>
 </template>
@@ -12,13 +13,15 @@
 import myMainProducts from './myMainProducts.vue';
 import myMainProcedure from './myMainProcedure.vue';
 import myMainLocationsSharing from './myMainLocationsSharing.vue';
+import myMainOrderShop from './myMainOrderShop.vue';
 
 export default {
   name: "myMain",
   components: {
     myMainProducts,
     myMainProcedure,
-    myMainLocationsSharing
+    myMainLocationsSharing,
+    myMainOrderShop
   }
 }
 </script>

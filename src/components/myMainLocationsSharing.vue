@@ -84,28 +84,35 @@
     <!-- Sharing -->
     <div class="sharing">
 
-      <img src="../assets/img/social-1.jpg" alt="sharing-photos" class="upper-img">
+      <div class="sharing-upper">
 
-      <div class="follow-us">
-          <p class="title">Made for sharing</p>
-          <h3 class="main-title-small">Let's stay in touch</h3>
-          <button class="btn-2">
-            <span>
-              <i class="fa-brands fa-instagram"></i>
-              Follow us
-            </span>
-          </button>
+        <img src="../assets/img/social-1.jpg" alt="sharing-photos" class="upper-img">
+        <div class="follow-us">
+            <p class="title">Made for sharing</p>
+            <h3 class="main-title-small">Let's stay in touch</h3>
+            <button class="btn-2">
+              <span>
+                <i class="fa-brands fa-instagram"></i>
+                Follow us
+              </span>
+            </button>
+        </div>
+
+        <img src="../assets/img/social-2.jpg" alt="sharing-photos" class="upper-img">
+
       </div>
 
-      <img src="../assets/img/social-2.jpg" alt="sharing-photos" class="upper-img">
+      <div class="sharing-lower">
 
-      <img src="../assets/img/social-3.jpg" alt="sharing-photos" class="lower-img">
+        <img src="../assets/img/social-3.jpg" alt="sharing-photos" class="lower-img">
 
-      <img src="../assets/img/social-4.jpg" alt="sharing-photos" class="lower-img costum-spacing-1">
+        <img src="../assets/img/social-4.jpg" alt="sharing-photos" class="lower-img costum-spacing-1">
 
-      <img src="../assets/img/social-5.jpg" alt="sharing-photos" class="lower-img costum-spacing-2">
+        <img src="../assets/img/social-5.jpg" alt="sharing-photos" class="lower-img costum-spacing-2">
 
-      <img src="../assets/img/social-6.jpg" alt="sharing-photos" class="lower-img">
+        <img src="../assets/img/social-6.jpg" alt="sharing-photos" class="lower-img">
+
+      </div>
 
     </div>
     <!-- /Sharing -->
@@ -181,12 +188,15 @@ export default {
 
 /* Sharing */
 .sharing{
+  margin-bottom: 85px;
+}
+
+.sharing-upper{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .upper-img{
-  width: 37vh;
+  width: 28.5%;
   height: 400px;
 }
 
@@ -197,7 +207,7 @@ export default {
 }
 
 .follow-us{
-  width: 77.4vh;
+  width: 60%;
   height: 400px;
   background-color: rgba($color: #bda2f3, $alpha: .1);
   margin: 0px 2.5%;
