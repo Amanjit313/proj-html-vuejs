@@ -13,14 +13,32 @@
         </div>
 
         <div class="shopping-products">
-          <img class="s-first-img" src="../assets/img/choco-chip-cookies-400x510.jpg" alt="products">
-          <img class="s-second-img" src="../assets/img/strawberry-jam-cookies-400x510.jpg" alt="products">
+
+          <div class="s-first-img-container">
+            <img class="s-first-img" src="../assets/img/choco-chip-cookies-400x510.jpg" alt="products">
+            <div class="s-first-img-text">
+              <h3 class="main-title-small-white-hover">Choco Chip Cookies</h3>
+              <p class="title-white">Cookies, Pastries</p>
+              <p class="main-title-small-white-hover">$19.00 - $39.00</p>
+            </div>
+          </div>
+
+          <div class="s-second-img-container">
+            <img class="s-second-img" src="../assets/img/strawberry-jam-cookies-400x510.jpg" alt="products">
+            <div class="s-second-img-text">
+              <h3 class="main-title-small-white-hover">Strawberry Jam Cookies</h3>
+              <p class="title-white">Cookies, Pastries</p>
+              <p class="main-title-small-white-hover">$24.00 - $62.00</p>
+            </div>
+          </div>
+
           <div class="s-first-selector">
             <i class="fa-solid fa-chevron-left"></i>
           </div>
           <div class="s-second-selector">
             <i class="fa-solid fa-chevron-right"></i>
           </div>
+
         </div>
 
       </div>
@@ -86,8 +104,11 @@
             <img :src="card.img" alt="product-card" class="product-img">
             <h5>{{card.product}}</h5>
             <p>{{card.price}}</p>
+            <div class="product-singol-card-hover">
+              <span class="title-white-hover">SELECT OPTIONS / QUICK VIEW</span>
+            </div>
           </div>
-          
+
           <div class="s-first-selector-2">
             <i class="fa-solid fa-chevron-left"></i>
           </div>
@@ -160,8 +181,12 @@ export default {
   position: relative;
 }
 
-.shopping-products img:nth-child(2){
+.s-second-img-container img{
   margin-left: 50px;
+}
+
+.shopping-products img:hover{
+  filter: brightness(65%);
 }
 
 .s-first-selector{
@@ -186,6 +211,36 @@ export default {
   &:hover{
     background-color: rgba($color: #5b2ca2, $alpha: .8);
   }
+}
+
+.s-first-img-container,
+.s-second-img-container{
+  position: relative;
+}
+
+.s-first-img-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.s-second-img-text{
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.s-first-img-container:hover .s-first-img-text,
+.s-second-img-container:hover .s-second-img-text{
+  display: inline;
 }
 
 /* Corporate Weddings */
@@ -258,6 +313,10 @@ export default {
   display: flex;
 }
 
+.product-singol-card{
+  margin-left: 20px;
+}
+
 .product-singol-card h5{
   margin: 10px 0px;
   font-size: 1.2rem;
@@ -271,16 +330,10 @@ export default {
   position: relative;
 }
 
-/* .product-cards :nth-child(2) img,
-.product-cards :nth-child(3) img,
-.product-cards :nth-child(4) img{
-  margin-left: 20px;
-} */
-
 .s-first-selector-2{
   position: absolute;
   bottom: 50%;
-  left: 0;
+  left: 20px;
 }
 
 .s-second-selector-2{
@@ -292,6 +345,24 @@ export default {
 .product-img{
   width: 235px;
   height: 300px;
+}
+
+.product-singol-card:hover .product-singol-card-hover{
+  display: inline;
+  position: absolute;
+  top: 0;
+  height: 300px;
+  width: 235px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba($color: black, $alpha: .4);
+  cursor: pointer;
+}
+
+.product-singol-card-hover{
+  display: none;
 }
 
 </style>
