@@ -4,8 +4,28 @@
 }
 
 /* Widht */
+.w-100{
+  width: 100%;
+}
+
+.w-90{
+  width: 90%;
+}
+
 .w-80{
   width: 80%;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.w-45{
+  width: 49%;
+}
+
+.w-40{
+  width: 40%;
 }
 
 .w-25{
@@ -66,6 +86,17 @@ button span{
   font-size: .65rem;
 }
 
+.title-no-up{
+  color: #929295;
+  font-size: .75rem;
+}
+
+.title-lg{
+  color: lightgray;
+  text-transform: uppercase;
+  font-size: .65rem;
+}
+
 .title-white{
   text-transform: uppercase;
   font-size: .65rem;
@@ -75,6 +106,12 @@ button span{
 .main-title-big{
   margin: 20px 0px;
   color: #5b2ca2;
+  font-size: 3rem;
+}
+
+.main-title-big-white{
+  margin: 20px 0px;
+  color: white;
   font-size: 3rem;
 }
 
@@ -93,4 +130,9 @@ button span{
 .description{
   margin-bottom: 30px;
   color: #929295;
+}
+
+.description-white{
+  margin-bottom: 30px;
+  color: white;
 }

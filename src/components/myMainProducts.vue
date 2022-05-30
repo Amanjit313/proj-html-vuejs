@@ -140,6 +140,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.products{
+  margin-bottom: 100px;
+}
+
 /* Shopping */
 .shopping{
   display: flex;
@@ -252,9 +256,6 @@ export default {
 
 .product-cards{
   display: flex;
-}
-
-.product-singol-card{
 }
 
 .product-singol-card h5{
