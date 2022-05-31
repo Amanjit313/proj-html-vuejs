@@ -4,6 +4,7 @@
     <myHeader />
     <myMain />
     <myFooter />
+    <myFixedElements />
 
   </div>
 </template>
@@ -12,13 +13,15 @@
 import myHeader from './components/myHeader.vue';
 import myMain from './components/myMain.vue';
 import myFooter from './components/myFooter.vue';
+import myFixedElements from './components/myFixedElements.vue';
 
 export default {
   name: 'App',
   components: {
     myHeader,
     myMain,
-    myFooter
+    myFooter,
+    myFixedElements
   }
 }
 </script>
